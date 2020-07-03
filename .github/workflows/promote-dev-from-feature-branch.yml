@@ -24,4 +24,6 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: Run lint test
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.SEMANTIC_RELEASE_CONFIG_TOKEN}}
         run: npm run test-lint
