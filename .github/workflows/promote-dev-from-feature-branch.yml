@@ -14,12 +14,11 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: actions/setup-node@v1
-        with:
-          registry-url: https://npm.pkg.github.com
 
       - name: Install dependencies
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
+          NPM_CONFIG_USERCONFIG: .npmrc
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
         run: npm ci --no-optional
 
       - uses: actions/cache@v1
@@ -32,6 +31,4 @@ jobs:
             ${{ runner.os }}-
 
       - name: Run lint test
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.SEMANTIC_RELEASE_CONFIG_TOKEN}}
         run: npm run test-lint
