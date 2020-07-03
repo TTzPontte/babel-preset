@@ -16,16 +16,31 @@
   "homepage": "https://github.com/pontte/babel-preset#readme",
   "main": "index.js",
   "files": [
-    "index.js",
+    "dist/*",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
     "commit": "git-cz",
+    "build": "sh scripts/build",
     "test-lint": "echo \"running test-lint script\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/helper-plugin-utils": "^7.10.4",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.10.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/plugin-transform-member-expression-literals": "^7.10.4",
+    "@babel/plugin-transform-property-literals": "^7.10.4",
+    "@babel/plugin-transform-property-mutators": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/plugin-transform-template-literals": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.10.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
@@ -33,7 +48,10 @@
     "commitlint": "^9.0.1",
     "husky": "^4.2.5"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/runtime": "^7.10.4"
+  },
   "optionalDependencies": {},
   "config": {
     "commitizen": {
