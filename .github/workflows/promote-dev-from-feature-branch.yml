@@ -31,4 +31,6 @@ jobs:
             ${{ runner.os }}-
 
       - name: Run lint test
+        env:
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
         run: npm run test-lint
