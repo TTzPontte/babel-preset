@@ -35,6 +35,10 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - uses: actions/setup-node@v1
+        with:
+          registry-url: https://registry.npmjs.org
+
       - name: Promote under production version
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
@@ -43,4 +47,4 @@ jobs:
           GIT_AUTHOR_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
-        run: npx semantic-release -c @pontte/semantic-release-config
+        run: npx semantic-release
