@@ -1,29 +1,29 @@
 {
-  "name": "@pontte/stardust",
+  "name": "@pontte/babel-preset",
   "version": "0.0.1",
-  "private": true,
   "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pontte/stardust.git"
+    "url": "git+https://github.com/pontte/babel-preset.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pontte/stardust/issues"
+    "url": "https://github.com/pontte/babel-preset/issues"
   },
-  "homepage": "https://github.com/pontte/stardust#readme",
-  "main": "",
+  "homepage": "https://github.com/pontte/babel-preset#readme",
+  "main": "index.js",
   "files": [
+    "index.js",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
     "commit": "git-cz",
-    "start": "echo \"running start script\"",
-    "build": "echo \"running build script\"",
-    "test-lint": "echo \"running test-lint script\"",
-    "test-unit": "echo \"running test-unit script\""
+    "test-lint": "echo \"running test-lint script\""
   },
   "dependencies": {},
   "devDependencies": {
