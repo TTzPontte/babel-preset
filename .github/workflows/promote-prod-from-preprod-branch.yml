@@ -44,4 +44,4 @@ jobs:
           GIT_AUTHOR_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
-        run: npx semantic-release
+        run: node_modules/.bin/semantic-release
