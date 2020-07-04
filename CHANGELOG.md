@@ -1,3 +1,10 @@
+# [1.0.0-alpha.3](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2020-07-04)
+
+
+### Bug Fixes
+
+* change build script ([57c31cf](https://github.com/pontte/babel-preset/commit/57c31cfcfdda21316f2c50aa37fb8508a9c3e366))
+
 # [1.0.0-alpha.2](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2020-07-04)
 
 
