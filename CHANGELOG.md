@@ -4,6 +4,16 @@
 ### Bug Fixes
 
 * test with `npx` ([b7f1002](https://github.com/pontte/babel-preset/commit/b7f100202d61fa4d72963e5b3460a681910b9068))
+* try bump alpha version ([d711a91](https://github.com/pontte/babel-preset/commit/d711a91fdd778bcc3752d1608d34219822a1468f))
+* try bump alpha version ([93e2916](https://github.com/pontte/babel-preset/commit/93e2916851e7befcf49e3ccd881008f519593cd2))
+* try bump alpha version ([88708d4](https://github.com/pontte/babel-preset/commit/88708d45b32855fec2f20d65380c96b1084614b0))
+
+# [1.0.0-alpha.2](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2020-07-04)
+
+
+### Bug Fixes
+
+* test with `npx` ([b7f1002](https://github.com/pontte/babel-preset/commit/b7f100202d61fa4d72963e5b3460a681910b9068))
 * try bump alpha version ([93e2916](https://github.com/pontte/babel-preset/commit/93e2916851e7befcf49e3ccd881008f519593cd2))
 * try bump alpha version ([88708d4](https://github.com/pontte/babel-preset/commit/88708d45b32855fec2f20d65380c96b1084614b0))
 
