@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/pontte/babel-preset/compare/1.0.0-beta.1...1.0.0-beta.2) (2020-07-04)
+
+
+### Features
+
+* add @pontte/commitlint-config ([d746c02](https://github.com/pontte/babel-preset/commit/d746c022a0d4f321ee7050e32d600f38164f5b0c))
+
 # 1.0.0-beta.1 (2020-07-04)
 
 
