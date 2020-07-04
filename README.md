@@ -7,28 +7,3 @@ Stardust is the next generation of projects of the @pontte. It brings you a enti
 [![](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Getting Started
-
-You **must change** some information in the `package.json`:
-
-- `name`
-- `description`
-- `files`
-- `homepage`
-- `main`
-- `repository.url`
-- `bugs.url`
-- `homepage`
-
-If your project will be a consumable one, don't forget to add distribution folder into `files` and specify `main` file.
-
-You **can change** but will be need to change Github Actions workflows:
-
-- `scripts.build`
-- `scripts.test-lint`
-- `scripts.test-unit`
-
-You **can't change**:
-
-- `version`
-
-Any other changes in `package.json` or Github Actions workflows **could break automation**. Be careful.
