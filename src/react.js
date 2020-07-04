@@ -1,3 +1,4 @@
+const { declare } = require('@babel/helper-plugin-utils');
 const presetEnv = require('./env');
 
 const preset = declare(({ assertVersion }, options) => {
@@ -30,9 +31,7 @@ const preset = declare(({ assertVersion }, options) => {
       '@babel/preset-react',
     ],
     plugins: ['babel-plugin-lodash'],
-    env: {
-      production,
-    },
+    env: { production },
   };
 
   return config;

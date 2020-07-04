@@ -25,7 +25,8 @@ const preset = declare(({ assertVersion }, options) => {
   const config = {
     presets: [
       [
-        '@babel/preset-env', {
+        '@babel/preset-env',
+        {
           modules,
           targets,
           debug,

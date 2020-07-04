@@ -23,7 +23,7 @@
   "scripts": {
     "commit": "git-cz",
     "build": "sh scripts/build",
-    "test-lint": "echo \"running test-lint script\""
+    "test-lint": "eslint src"
   },
   "dependencies": {
     "@babel/core": "^7.10.4",
@@ -43,8 +43,10 @@
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@pontte/commitlint-config": "^1.0.0",
+    "@pontte/eslint-config": "^1.0.0-alpha.2",
     "commitizen": "^4.1.2",
     "commitlint": "^9.0.1",
+    "eslint": "^7.4.0",
     "husky": "^4.2.5"
   },
   "peerDependencies": {
