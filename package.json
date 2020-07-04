@@ -14,7 +14,6 @@
     "url": "https://github.com/pontte/babel-preset/issues"
   },
   "homepage": "https://github.com/pontte/babel-preset#readme",
-  "main": "index.js",
   "files": [
     "dist/*",
     "LICENSE",
@@ -51,14 +50,16 @@
   "peerDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/runtime": "^7.10.4",
-    "@pontte/semantic-release-config": "^1.0.2",
+    "@pontte/semantic-release-config": "^1.0.2-beta.1",
     "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0"
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.1.1"
   },
   "optionalDependencies": {
-    "@pontte/semantic-release-config": "^1.0.2",
+    "@pontte/semantic-release-config": "^1.0.2-beta.1",
     "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0"
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.1.1"
   },
   "config": {
     "commitizen": {
