@@ -1,3 +1,11 @@
+# [1.0.0-beta.3](https://github.com/pontte/babel-preset/compare/1.0.0-beta.2...1.0.0-beta.3) (2020-07-04)
+
+
+### Features
+
+* add @pontte/eslint-config updated ([73f7f00](https://github.com/pontte/babel-preset/commit/73f7f00df97a46aee107bb4b616af484c25f59bf))
+* add @pontte/semantic-release-config ([afba2b4](https://github.com/pontte/babel-preset/commit/afba2b4305ddd64097b7700a2e9b2b147513826b))
+
 # [1.0.0-beta.2](https://github.com/pontte/babel-preset/compare/1.0.0-beta.1...1.0.0-beta.2) (2020-07-04)
 
 
