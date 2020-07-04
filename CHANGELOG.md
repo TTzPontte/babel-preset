@@ -1,3 +1,10 @@
+# [1.0.0-alpha.2](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.1...1.0.0-alpha.2) (2020-07-04)
+
+
+### Bug Fixes
+
+* test with `npx` ([b7f1002](https://github.com/pontte/babel-preset/commit/b7f100202d61fa4d72963e5b3460a681910b9068))
+
 # 1.0.0-alpha.1 (2020-07-03)
 
 
