@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/pontte/babel-preset/compare/1.0.0-beta.3...1.0.0-beta.4) (2020-07-06)
+
+
+### Bug Fixes
+
+* add missing dependency babel-plugin-lodash ([72fcb5c](https://github.com/pontte/babel-preset/commit/72fcb5c55ce99e7e0fcf1feab87e03a9c9c97bfb))
+
 # [1.0.0-beta.3](https://github.com/pontte/babel-preset/compare/1.0.0-beta.2...1.0.0-beta.3) (2020-07-04)
 
 

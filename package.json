@@ -1,6 +1,6 @@
 {
   "name": "@pontte/babel-preset",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "A Babel configuration for @pontte projects.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
