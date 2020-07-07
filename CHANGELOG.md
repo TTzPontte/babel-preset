@@ -1,3 +1,10 @@
+# [1.0.0-beta.5](https://github.com/pontte/babel-preset/compare/1.0.0-beta.4...1.0.0-beta.5) (2020-07-07)
+
+
+### Bug Fixes
+
+* update semantic release config ([9be3afb](https://github.com/pontte/babel-preset/commit/9be3afb081a9637e5d510e3851ce531a24f05dc1))
+
 # [1.0.0-beta.4](https://github.com/pontte/babel-preset/compare/1.0.0-beta.3...1.0.0-beta.4) (2020-07-06)
 
 
