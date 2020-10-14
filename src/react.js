@@ -1,7 +1,8 @@
+const { declare } = require('@babel/helper-plugin-utils');
 const presetEnv = require('./env');
 
-const preset = declare(({ assertVersion }, options) => {
-  assertVersion('^7.0.0');
+const preset = declare((api, options = {}) => {
+  api.assertVersion('^7.0.0');
 
   const production = {
     plugins: [
