@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2020-10-14)
+
+
+### Bug Fixes
+
+* remove unnecessary options from env ([462ced8](https://github.com/pontte/babel-preset/commit/462ced817542d94f7728f3b09b90876c1e0fc0b9))
+
 # [1.0.0-alpha.5](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2020-10-14)
 
 
