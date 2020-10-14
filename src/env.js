@@ -13,8 +13,6 @@ const preset = declare((api, options) => {
 
   const {
     modules = useESModules ? false : 'commonjs',
-    useBuiltIns = true,
-    targets = {},
     loose = true,
     ...defaultProps
   } = options;
@@ -38,8 +36,6 @@ const preset = declare((api, options) => {
         '@babel/preset-env', {
           ...defaultProps,
           modules,
-          targets,
-          useBuiltIns,
           shippedProposals,
           loose,
         },
