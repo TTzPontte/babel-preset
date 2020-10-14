@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2020-10-14)
+
+
+### Bug Fixes
+
+* add missing import and dependency ([00efce4](https://github.com/pontte/babel-preset/commit/00efce4719096d7440be6e07d5ca5cf13149af92))
+
 # [1.0.0-alpha.4](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2020-10-14)
 
 
