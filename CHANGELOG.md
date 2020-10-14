@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.3...1.0.0-alpha.4) (2020-10-14)
+
+
+### Features
+
+* add improvements and fixes ([49c23a5](https://github.com/pontte/babel-preset/commit/49c23a5a11b2550e4f453222181a9527a551330d))
+
 # [1.0.0-alpha.3](https://github.com/pontte/babel-preset/compare/1.0.0-alpha.2...1.0.0-alpha.3) (2020-07-04)
 
 
